@@ -1,7 +1,10 @@
 class Ledger:
     def __init__(self):
         pass
-
+    '''
+    {u1 :{u2:-50}
+    {u2 :{u1:50}
+    '''
     transaction_entry = {}
 
     @staticmethod
